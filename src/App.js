@@ -23,7 +23,6 @@ export var App = {
 			},
 			instances : {},
 			page : function(name){
-				return new this.classes[name]();
 				if( this.instances[name] ){
 					return this.instances[name];
 				}else{

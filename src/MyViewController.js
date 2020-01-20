@@ -7,7 +7,7 @@ export class MyViewController extends Craft.Widget.StickyHeaderNavi.ViewControll
 	
 	resolveRoutingRequest(route){
 		switch(route.path){
-			case 'second':
+			case '/second':
 				this.open({ page:Craft.Core.Context.MyPageProvider.page('second'), callback:null, route:route });
 				break;
 			default:
