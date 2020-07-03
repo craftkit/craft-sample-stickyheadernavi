@@ -1,6 +1,6 @@
 {
   "name": "@craftkit/craft-sample-stickyheader",
-  "version": "1.0.1",
+  "version": "3.1.0",
   "description": "Sample implementation for Craft-Widget-StickyHeaderNavi",
   "main": "",
   "directories": {},
@@ -25,8 +25,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "local-web-server": "^3.x",
-    "@craftkit/craft-uikit": "^2.x",
-    "@craftkit/craft-widget-stickyheadernavi": "^2.x"
+    "@craftkit/craft-uikit": "*",
+    "@craftkit/craft-widget-stickyheadernavi": "*",
+    "local-web-server": "^3.x"
   }
 }
